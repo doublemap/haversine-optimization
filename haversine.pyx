@@ -1,4 +1,4 @@
-from math import sin, cos, acos
+from libc.math cimport sin, cos, acos
 
 
 def haversine(coord1, coord2):
